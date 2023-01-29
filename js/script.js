@@ -21,17 +21,17 @@ let textVin = (playerVin.textContent = "You vin!");
 let text = (playerLoose.textContent = "Passed the target score");
 playerLoose.style.fontSize = "20px";
 playerVin.style.fontSize = "20px";
-let backgroundSong = new Audio("/img/relaxed-vlog-131746.mp3");
+let backgroundSong = new Audio("/assets/audio/relaxed-vlog-131746.mp3");
 backgroundSong.volume = 0.01;
-let song = new Audio("/img/Mouse Click - Sound Effect (HD).mp3");
+let song = new Audio("/assets/audio/Mouse Click - Sound Effect (HD).mp3");
 song.volume = 1;
 let yourImages = [
-  "img/dice-1.png",
-  "img/dice-2.png",
-  "img/dice-3.png",
-  "img/dice-4.png",
-  "img/dice-5.png",
-  "img/dice-6.png",
+  "assets/images/dice-1.png",
+  "assets/images/dice-2.png",
+  "assets/images/dice-3.png",
+  "assets/images/dice-4.png",
+  "assets/images/dice-5.png",
+  "assets/images/dice-6.png",
 ];
 
 const player1 = 1;
