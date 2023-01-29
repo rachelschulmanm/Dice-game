@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>🎲Roll tha dice</title>
+  </head>
+  <body>
+    <section class="hide">
+      <h1>Game instructions</h1>
+      <ul class="insructions">
+        <li>
+          if you turn -roll the dice (at least once) and accumulate the result
+          in "current"
+        </li>
+        <li>
+          You can roll again or click "Hold" to save the points from "Current"
+          and end the turn.
+        </li>
+        <li>
+          Note! if you get 6-6 you will loose all points from "current" and the
+          turn will go to your opponent
+        </li>
+        <li>
+          if you managed to reach axactly the target score- you win! if you
+          passed it - you loose.
+        </li>
+      </ul>
+      <div class="form">
+        <h2>Please select a target score</h2>
+        <input class="target" type="number" />
+        <div>
+          <button id="start-game">🎮START GAME</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="game">
+      <div class="player1" id="player">
+        <div class="header1">
+          <p class="finish-game1">player 1</p>
+          <p class="scorePlayer1">0</p>
+        </div>
+        <div class="box-player1" id="box-player">
+          <p>Current</p>
+          <br />
+          <p class="counter1">0</p>
+        </div>
+      </div>
+      <div class="player2" id="player">
+        <div class="header2">
+          <p class="finish-game2">player 2</p>
+          <p class="scorePlayer2">0</p>
+        </div>
+        <div class="box-player2" id="box-player">
+          <p>Current</p>
+          <br />
+          <p class="counter2">0</p>
+        </div>
+      </div>
+    </section>
+    <section class="tools">
+      <ul class="ul2">
+        <li><button class="new-game">🔄new game</button></li>
+        <li><img src="img/dice-1.png" alt="" class="img1" /></li>
+        <li><img src="img/dice-2.png" alt="" class="img2" /></li>
+        <li>
+          <button class="roll-dice">🎲 Roll dice</button>
+        </li>
+        <li><button class="hold">Hold</button></li>
+      </ul>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>

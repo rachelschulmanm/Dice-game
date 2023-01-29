@@ -1,0 +1,137 @@
+body {
+  width: 70%;
+  height: 30%;
+}
+.hide {
+  top: 10vh;
+  left: 10vw;
+  background-image: linear-gradient(to left, rgb(255, 0, 162), rgb(132, 1, 90));
+  border-radius: 50px;
+  border: 6px solid rgb(83, 2, 49);
+  height: 80%;
+  width: 80%;
+  z-index: 8;
+  position: absolute;
+}
+.form {
+  margin-top: 30vh;
+  text-align: center;
+}
+.target {
+  width: 25vw;
+  height: 3vh;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+#start-game {
+  height: 4vh;
+  width: 25vw;
+  border-radius: 50px;
+  border: 6px solid rgb(254, 254, 254);
+}
+.game {
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+}
+.tools {
+  z-index: 6;
+  position: relative;
+  left: 55%;
+  list-style: none;
+}
+
+h1 {
+  text-align: center;
+}
+.player1 {
+  text-align: center;
+  /* height: 50%; */
+  width: 50vw;
+  background-color: rgb(225, 110, 190);
+
+  /* background-color: rgb(226, 36, 207); */
+}
+.player2 {
+  text-align: center;
+  /* height: 100vh; */
+  width: 50vw;
+  background-color: rgb(226, 36, 207);
+
+  /* background-color: rgb(225, 110, 190); */
+}
+.game {
+  display: flex;
+  /* bottom: 50px; */
+  height: 100%;
+}
+.header {
+  font-size: 3rem;
+}
+#box-player {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50%;
+  /* margin-bottom: auto; */
+  /* width: 8em; */
+  border-radius: 20px;
+  background-color: rgb(149, 52, 109);
+  width: 15vw;
+  z-index: 2;
+}
+img {
+  /* display: flex; */
+  /* justify-items: center; */
+  /* align-items: center; */
+  margin-top: 15px;
+  /* margin-right: 15px; */
+  z-index: 15;
+  width: 10%;
+  height: 10%;
+  border: 5px solid #555;
+  margin-left: 50px;
+}
+li {
+  /* list-style: none; */
+}
+.ul2 {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  /* align-items: center; */
+  list-style: none;
+  /* justify-items: auto; */
+  /* display: flex;
+  display: grid; */
+  /* align-content: space-between; */
+}
+.insructions {
+  list-style: circle;
+}
+.new-game {
+  margin-top: 6%;
+
+  border-radius: 50px;
+  width: 18vw;
+}
+.img1 {
+  margin-top: 12%;
+  /* margin-left: 20%; */
+}
+.img-dice {
+  width: 25px;
+  height: px;
+  /* display: block; */
+  border: 0px solid white;
+}
+.roll-dice {
+  margin-top: 15px;
+  width: 18vw;
+  border-radius: 50px;
+}
+.hold {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  width: 18vw;
+  border-radius: 50px;
+}
